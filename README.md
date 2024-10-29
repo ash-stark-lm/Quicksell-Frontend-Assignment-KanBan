@@ -1,65 +1,81 @@
+Here’s a more descriptive `README.md` for your Kanban board app with the updated GitHub link and expanded details:
+
+---
+
 # Kanban Board App
 
 ## Overview
 
-This project is a Kanban board application built using ReactJS. It allows users to interact with ticket data fetched from the [Quicksell API](https://api.quicksell.co/v1/internal/frontend-assignment). Users can group and sort tickets based on different criteria, making it a versatile tool for project management. See the project live at [Live Link](https://quicksell-frontend-shubh.netlify.app/).
+This project is a fully functional **Kanban Board Application** built with **ReactJS**, designed to streamline project management. It fetches and displays ticket data directly from the **Quicksell API** and offers flexible grouping and sorting options to help users manage tasks efficiently. Explore the app [here](#).
 
 ## Features
 
-- **Data Interaction:**
+### Data Interaction
 
-  - Fetches ticket data from the Quicksell API.
-  - Displays the fetched data on a Kanban board.
+- **Fetch Data**: Connects to the Quicksell API to retrieve real-time ticket data.
+- **Display on Kanban Board**: Organizes tickets visually for easy task tracking.
 
-- **Grouping Options:**
+### Grouping Options
 
-  - Group tickets by Status, User, or Priority.
+- Group tickets based on **Status**, **Assigned User**, or **Priority**, giving users flexibility in viewing and managing tasks.
 
-- **Sorting Options:**
+### Sorting Options
 
-  - Sort tickets by Priority or Title.
+- Sort tickets by **Priority** or **Title**, ensuring easy access to the most critical information.
 
-- **Priority Levels:**
+### Priority Levels
 
-  - Tickets are categorized with priority levels ranging from Urgent (4) to No Priority (0).
+- Tickets have **Priority Levels** from 0 to 4:
+  - **4**: Urgent
+  - **3**: High
+  - **2**: Medium
+  - **1**: Low
+  - **0**: No Priority
 
-- **Styling:**
+### Styling
 
-  - Visually appealing and responsive design.
-  - Pure CSS is used for styling.
+- **Responsive Design**: Styled with CSS for a visually appealing and adaptable interface.
+- **Icons**: Integrated via `react-icons` for enhanced visual cues on the board.
 
-- **Icons:**
+### State Persistence
 
-  - Icons are integrated for various elements of the application using react-icon.
+- **Local Storage**: Remembers the user’s preferences for grouping and sorting, even after refreshing the page.
 
-- **State Persistence:**
-  - Saves the user's view state (grouping and sorting options) even after a page reload using local storage.
+## Getting Started
 
-## Setup
+### Prerequisites
 
-1. **Clone the Repository:**
+Ensure you have [Node.js](https://nodejs.org/) installed.
 
+### Installation
+
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Shubhankar-12/quicksell-frontend-assignment
+   git clone https://github.com/ash-stark-lm/Quicksell-Frontend-Assignment-KanBan.git
    ```
-
-2. **Navigate to the Project Directory:**
-
+2. **Navigate to the Project Directory**:
    ```bash
    cd kanban-board-app
    ```
-
-3. **Install Dependencies:**
+3. **Install Dependencies**:
 
    ```bash
    npm install
    ```
 
-4. **Run the Application:**
+4. **Run the Application**:
 
    ```bash
    npm start
    ```
 
-5. **Access the Application:**
-   Open your browser and go to `http://localhost:3000`.
+5. **Access the Application**:
+   Open your browser and go to [http://localhost:3000](http://localhost:3000) to see your Kanban board in action.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to add additional sections as your project evolves!
